@@ -1,0 +1,163 @@
+#region Exercicio 1
+
+#def hello():
+#    print("Hello Word!")
+
+
+#hello()
+#endregion
+
+#region Exercicio 2
+# def ola(lol):
+#    pop = "Ola " + lol + "!"
+#    print(pop)
+#nome = input(("Nome: "))
+#endregion ola(nome)
+
+#region Exercicio 3
+#def soma(num1, num2):
+#    _soma = num1 + num2
+#    print(_soma)
+#a = int(input("Num 1 "))
+#b = int(input("Num 2 "))
+#soma(a,b)
+#endregion
+
+#region Exercicio 4
+#def soma():
+#    num1 = int(input("Num 1 "))
+#    num2 = int(input("Num 2 "))
+#    _soma = num1 + num2
+#    return print(_soma)
+#soma()
+#endregion
+
+#region Exercicio 5
+#def arg():
+#    a = input("a ")
+#    b = input("b ")
+#    c = input("c ")
+#    return print(b,a,c)
+#arg()
+#endregion
+
+#region Exercicio 6
+#lista = ["pedro", "paulo", "mateus"]
+#def arglist (nome):
+#    for i in nome:
+#        print(i)
+#arglist(lista)
+#endregion
+
+#region Exercicio 7
+#def somareman(a):
+#    rslt = 0
+#    for i in range(a + 1):
+#        rslt = rslt + i
+#    return rslt
+#print(somareman(5))
+#end region
+
+#region Exercicio 8
+#def recsom(x):
+#  if x ==1:
+#       return 1
+#    return (x + recsom(x-1))
+#print(recsom(5))
+#endregion
+
+#region Exercicio 9
+#def facta(x):
+#    if x ==1 or x == 0:
+#        return 1
+#    return (x * facta(x-1))
+#print(facta(3))
+#endregion
+
+#region Exercicio 10
+#def funlist():
+#    d = [1, 2, 3, 4]
+#    b = 0
+#    for i in d:
+#        b = i + b
+#    return b
+#print(funlist())
+#endregion
+
+#region Exercicio 11
+#def inverstr():
+#    istring = "abcd"
+#    print(istring[::-1])
+#print(inverstr())
+#endregion
+#region Anotação
+#thisdict = {
+#    "brand": "Ford",
+#    "model": "Mustang",
+#    "year": 1964
+#}
+#print(thisdict["brand"])
+#graph api
+#endregion
+
+#region Exercicio 12
+#def maimen():
+#    a = int(input("Poen aqui jkrlh: "))
+#    if a >= 1000 and a <= 1000000:
+#        print("ta dentro")
+#    else:
+#        print("fora")
+#maimen()
+#endregion
+
+#region Exercicio 13
+#def calcdic():
+#    b = {
+#        "Teste" : 0,
+#        "Lower case" : 0,
+#        "Upper case" : 0
+#    }
+#    a = "aaaaaaa AAAa"
+#    for i in (a):
+#        b["Teste"] += 1
+#        if i.islower():
+#            b["Lower case"] +=1
+#        elif i.isupper():
+#            b["Upper case"] += 1
+#        else:
+#            pass
+#    c = b["Lower case"]
+#    d = b["Upper case"]
+#    print("Lower case: {} ".format(c))
+#    print("Upper Case: {}".format(d))
+#    return b
+#calcdic()
+#endregion
+
+#region TUrtle
+#import turtle
+#from turtle import *
+#import random
+#color('purple', 'pink')
+#begin_fill()
+#speed(2)
+#grande = 50
+#dist = random.randint(0,100)
+#raio = random.randint(0,200)
+#if dist > raio & dist == raio:
+#    input()
+#penup()
+#setposition(dist,dist)
+#pendown()
+#circle(raio)
+#penup()
+#setposition(dist*2,dist*2)
+#pendown()
+#circle(raio)
+#penup()
+#setposition(dist*3, dist*3)
+#pendown()
+#circle(raio)
+#end_fill()
+#done()
+#endregion
